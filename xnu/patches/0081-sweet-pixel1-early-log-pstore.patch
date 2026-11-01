@@ -260,7 +260,7 @@ index 9eea047..5d2856f 100644
 + * zone and the 32MB block start.s / arm_vm_init map around it.
 + */
 +#define SWEET_EARLY_LOG_BLOCK     0x92000000
-+#define SWEET_EARLY_LOG_PRZ       0x92920000
++#define SWEET_EARLY_LOG_PRZ       0x92980000
 +
  #define HAS_GIC_V3                1
  
