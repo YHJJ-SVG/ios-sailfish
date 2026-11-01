@@ -1,0 +1,7 @@
+--- a/pexpert/pexpert/arm64/SWEET.h
++++ b/pexpert/pexpert/arm64/SWEET.h
+@@ -39,2 +39,2 @@
+-#define SWEET_EARLY_LOG_BLOCK     0x82000000
+-#define SWEET_EARLY_LOG_PRZ       0x83540000
++#define SWEET_EARLY_LOG_BLOCK     0x92000000
++#define SWEET_EARLY_LOG_PRZ       0x92920000
