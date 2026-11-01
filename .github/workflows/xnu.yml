@@ -120,6 +120,6 @@ jobs:
         if: always()
         with:
           name: xnu-kernel
-          path: out/
+          path: out/kernel.development.sweet
           if-no-files-found: warn
 # build trigger: mi5s kernel

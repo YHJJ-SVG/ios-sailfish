@@ -1,7 +1,15 @@
 --- a/pexpert/pexpert/arm64/SWEET.h
 +++ b/pexpert/pexpert/arm64/SWEET.h
-@@ -39,2 +39,2 @@
+@@ -40,10 +40,10 @@
+ #define __ARM_16K_PG__            1
+ 
+ /*
+  * Early boot log (osfmk/arm64/sweet_early.c): the Pixel 1 ramoops console
+  * zone and the 32MB block start.s / arm_vm_init map around it.
+  */
 -#define SWEET_EARLY_LOG_BLOCK     0x82000000
 -#define SWEET_EARLY_LOG_PRZ       0x83540000
 +#define SWEET_EARLY_LOG_BLOCK     0x92000000
 +#define SWEET_EARLY_LOG_PRZ       0x92920000
+ 
+ #define HAS_GIC_V3                1
